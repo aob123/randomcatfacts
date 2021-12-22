@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
+
+body,
+html {
+  margin: 0px;
+  background-color: rgb(53, 107, 255);
+  width: 100vw;
+  font-family: "Istok Web", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: larger;
+}
+
+#factsContainer {
+  width: 50%;
+}
+
+.button {
+  background-color: rgb(132, 164, 250);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  font-size: larger;
+}
+
+.button:hover {
+  background-color: rgb(68, 117, 253);
+}
+
+.button:active {
+  background-color: white;
+  color: rgb(132, 164, 250);
+}
